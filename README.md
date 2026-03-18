@@ -24,11 +24,11 @@ The site follows a modular, component-based layout:
 /
 ├── index.html
 ├── links.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── json/
-│   └── html/
+└── assets/
+    ├── css/
+    ├── js/
+    ├── json/
+    └── html/
 ```
 
 ### Key Components
