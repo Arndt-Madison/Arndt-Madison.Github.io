@@ -9,7 +9,8 @@
 			"Outside of coding, I stay active in the outdoors: walking, biking, hiking, and kayaking and I run a free outdoor exercise group in Anoka County and surrounding areas."
 		]
 	},
-	"about": {
+	"sections": [
+		{
 		"title": "About Me",
 		"body": [
 			"I’m a developer with a strong focus on modular design and adaptability. I build projects in structured components so they can be reused, expanded, or integrated without unnecessary complexity. My approach keeps systems lightweight, maintainable, and practical for real-world use.",
@@ -20,5 +21,6 @@
 			"",
 			"I aim to build things that are useful, reliable, and easy to work with—whether for myself, a team, or a larger system."
 		]
-	}
+		}
+	]
 }
