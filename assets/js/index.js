@@ -25,57 +25,39 @@ function renderHome(indexData, settings){
 		}
 	}
 
-	setText(document.querySelector("[data-about-title]"), page.about?.title || "");
-	const aboutBody = document.querySelector("[data-about-body]");
-	if(aboutBody){
-		aboutBody.innerHTML = "";
-		for(const p of (page.about?.body || [])){
-			if(!p.trim()){
-				const spacer = document.createElement("div");
-				spacer.style.height = "12px";
-				aboutBody.appendChild(spacer);
-				continue;
-			}
+		const dynamicSections = document.querySelector("[data-dynamic-sections]");
+	if(dynamicSections){
+		dynamicSections.innerHTML = "";
 
-			const el = document.createElement("p");
-			el.textContent = p;
-			aboutBody.appendChild(el);
-		}
-	}
-
-	setText(document.querySelector("[data-branches-title]"), page.branches?.title || "");
-	const branchesHost = document.querySelector("[data-branches]");
-	if(branchesHost){
-		branchesHost.innerHTML = "";
-		for(const item of (page.branches?.items || [])){
+		for(const section of (page.sections || [])){
 			const card = document.createElement("div");
-			card.className = "card branch-item";
-			let img = null;
+			card.className = "card";
 
-			if (item.icon && item.icon.trim() !== "") {
-				img = document.createElement("img");
-				img.src = item.icon;
-				img.alt = item.title || "";
+			if(section.id){
+				card.id = section.id;
 			}
-			const right = document.createElement("div");
-			let titleHTML;
-			if (item.href) {
-				titleHTML = `<h3><a href="${item.href}" style="text-decoration:none;color:inherit;">${item.title || ""}</a></h3>`;
-			} else {
-				titleHTML = `<h3>${item.title || ""}</h3>`;
+
+			const title = document.createElement("h2");
+			title.textContent = section.title || "";
+			card.appendChild(title);
+
+			const body = document.createElement("div");
+
+			for(const p of (section.body || [])){
+				if(!p.trim()){
+					const spacer = document.createElement("div");
+					spacer.style.height = "12px";
+					body.appendChild(spacer);
+					continue;
+				}
+
+				const el = document.createElement("p");
+				el.textContent = p;
+				body.appendChild(el);
 			}
-			right.innerHTML = `${titleHTML}<p>${item.body || ""}</p>`;
-			if(item.note){
-				const b = document.createElement("div");
-				b.className = "badge";
-				b.textContent = item.note;
-				right.appendChild(b);
-			}
-			if (img) {
-				card.appendChild(img);
-			}
-			card.appendChild(right);
-			branchesHost.appendChild(card);
+
+			card.appendChild(body);
+			dynamicSections.appendChild(card);
 		}
 	}
 
