@@ -1,0 +1,42 @@
+{
+	"site": {
+		"tagline": "",
+		"metaDescription": ""
+	},
+	"brand": {
+		"title": "Madison Arndt",
+		"email": "Arndt.Madison.1999@gmail.com",
+		"logo": "/assets/images/2024 headshot.png",
+		"background": "/assets/images/THEMADHOOD background square.png",
+		"copyright": "© 2026 Madison Arndt. All rights reserved.",
+		"brandContext": "",
+		"colors": {
+			"bg": "#000000",
+			"text": "#f5f5f5",
+			"muted": "#b8b8c2",
+			"card": "#17171c",
+			"border": "#2a2a34",
+			"accent": "#74131c",
+			"accentSoft": "rgba(177,26,37,.15)",
+			"topbarBg": "#74131c",
+			"footerBg": "#74131c",
+			"linkColor": "#f5f5f5",
+			"buttonBg": "#0f0f12",
+			"buttonText": "#f5f5f5",
+			"heroOverlay": "#0f0f12"
+		}
+	},
+	"nav": {
+		"homePath": "index.html",
+		"items": [
+			{
+				"label": "Home",
+				"href": "index.html"
+			},
+			{
+				"label": "Links",
+				"href": "links.html"
+			}
+		]
+	}
+}

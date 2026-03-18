@@ -1,0 +1,47 @@
+{
+	"sections": [
+		{
+			"title": "Social Links",
+			"links": [
+				{
+					"label": "Facebook",
+					"href": ""
+				},
+				{
+					"label": "Github",
+					"href": "https://github.com/Arndt-Madison"
+				},
+				{
+					"label": "Instagram",
+					"href": ""
+				},
+				{
+					"label": "Linked In",
+					"href": "https://www.linkedin.com/in/madison-p-arndt"
+				},
+				{
+					"label": "Snapchat",
+					"href": "https://www.snapchat.com/@themadhood"
+				}
+			]
+		},
+		{
+			"title": "News Links",
+			"links": [
+				{
+					"label": "",
+					"href": ""
+				}
+			]
+		},
+		{
+			"title": "Business Links",
+			"links": [
+				{
+					"label": "Themadhood Pequot",
+					"href": "https://Themadhood.github.io"
+				}
+			]
+		}
+	]
+}
