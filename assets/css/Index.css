@@ -1,0 +1,86 @@
+:root{
+  --bg:#000000;
+  --card:#171720;
+  --text:#f1f1f3;
+  --muted:#b8b8c7;
+  --border:#2a2a38;
+  --accent:#b11a25;
+  --topbar-bg:#0f0f12;
+  --footer-bg:#0f0f12;
+  --link-color:#0f0f12;
+  --button-bg:#0f0f12;
+  --button-text:#0f0f12;
+  --hero-overlay:#0f0f12;
+}
+
+
+*{box-sizing:border-box}
+body{
+	margin:0;
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+	background:var(--bg);
+	color:var(--text);
+	padding-top: var(--header-height, 0px);
+	}
+a{color:inherit}
+
+/*-------------- Hero --------------*/
+[data-hero-body] p{
+  margin-bottom:12px;
+}
+
+/*
+45deg	bottom-left → top-right
+135deg	top-left → bottom-right
+180deg	top → bottom
+90deg	left → right
+*/
+.hero{
+	border:1px solid var(--border);
+	border-radius:22px;
+	overflow:hidden;
+	background:linear-gradient(45deg, var(--card), color-mix(in srgb, var(--accent) 20%, var(--card)))
+	}
+.hero-bg{
+  height:250px;
+  background-size:cover;
+  background-position:center 25%;
+  background-repeat:no-repeat;
+  border-bottom:1px solid var(--border);
+}
+.hero-content{padding:22px}
+.hero h1{margin:0 0 10px 0;font-size:42px;line-height:1.05;white-space:pre-line}
+.hero p{margin:0 0 10px 0;color:var(--muted);max-width:70ch}
+.grid{display:grid;gap:14px}
+.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+
+/*-------------- About --------------*/
+[data-about-body] p{
+  margin-bottom:12px;
+}
+@media (max-width:900px){.grid.cols-3{grid-template-columns:1fr}}
+.card{border:1px solid var(--border);border-radius:18px;padding:16px;background:var(--card)}
+.card h1,.card h2,.card h3{margin:0 0 10px 0}
+.card p{margin:0;color:var(--muted)}
+
+
+/*-------------- Braches / serveces --------------*/
+.branch-item{display:flex;gap:12px;align-items:flex-start}
+.branch-item img{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  object-fit:contain;
+  border:none;
+  background:none;
+}
+.branch.clickable{
+  cursor:pointer;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+.branch.clickable:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px rgba(0,0,0,.25);
+
