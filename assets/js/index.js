@@ -25,7 +25,7 @@ function renderHome(indexData, settings){
 		}
 	}
 
-		const dynamicSections = document.querySelector("[data-dynamic-sections]");
+	const dynamicSections = document.querySelector("[data-dynamic-sections]");
 	if(dynamicSections){
 		dynamicSections.innerHTML = "";
 
@@ -61,42 +61,6 @@ function renderHome(indexData, settings){
 		}
 	}
 
-	setText(document.querySelector("[data-affiliates-title]"), page.affiliates?.title || "");
-	const affHost = document.querySelector("[data-affiliates]");
-	if(affHost){
-		affHost.innerHTML = "";
-		for(const a of (page.affiliates?.items || [])){
-			const row = document.createElement("div");
-			row.className = "card branch-item";
-			const right = document.createElement("div");
-			const name = document.createElement("h3");
-			name.textContent = a.name || "";
-			right.appendChild(name);
-
-			if(a.href){
-				const link = document.createElement("a");
-				link.href = a.href;
-				link.textContent = a.href;
-				link.className = "small";
-				link.rel = "noopener";
-				link.target = "_blank";
-				right.appendChild(link);
-			}
-			if(a.note){
-				const note = document.createElement("div");
-				note.className = "badge";
-				note.textContent = a.note;
-				right.appendChild(note);
-			}
-
-			row.appendChild(right);
-			affHost.appendChild(row);
-		}
-	}
-
-	setText(document.querySelector("[data-contact-title]"), page.contact?.title || "");
-	const contactNote = document.querySelector("[data-contact-note]");
-	if(contactNote) contactNote.textContent = page.contact?.note || "";
 }
 
 async function main(){
