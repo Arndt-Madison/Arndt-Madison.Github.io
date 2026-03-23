@@ -2,25 +2,95 @@
 	"hero": {
 		"headline": "Madison Arndt",
 		"body": [
-			"Hi, I’m Madison Arndt.",
+			"Hey, I’m Madison.",
 			"",
-			"I’m a developer who builds modular, functional systems designed to be both independent and scalable. I focus on creating tools and projects that can stand on their own while also supporting larger ecosystems.",
+			"I build systems, tools, and projects that are meant to actually work long term, not just once. I like things that are modular, flexible, and can grow without turning into a mess.",
 			"",
-			"Outside of coding, I stay active in the outdoors: walking, biking, hiking, and kayaking and I run a free outdoor exercise group in Anoka County and surrounding areas."
+			"Outside of that, I spend a lot of time outdoors hiking, biking, kayaking, or just getting out when I can. I also run a free outdoor exercise group, so staying active and helping people stay consistent is a big part of my life."
 		]
 	},
 	"sections": [
 		{
-		"title": "About Me",
-		"body": [
-			"I’m a developer with a strong focus on modular design and adaptability. I build projects in structured components so they can be reused, expanded, or integrated without unnecessary complexity. My approach keeps systems lightweight, maintainable, and practical for real world use.",
-			"",
-			"One of the ways I stand out is how I adapt my syntax and structure to match existing repositories and environments. Instead of forcing a single style, I prioritize consistency within each project, making collaboration and long term maintenance easier.",
-			"",
-			"Beyond development, I value staying active and connected. I regularly spend time outdoors and lead a free community exercise group, combining structure, consistency, and accessibility principles I also apply in my technical work.",
-			"",
-			"I aim to build things that are useful, reliable, and easy to work with. whether for myself, a team, or a larger system."
-		]
+			"title": "About Me",
+			"body": [
+				"My brain works very logically. I naturally think in systems, patterns, and how things connect, almost like how a computer processes things.",
+				"",
+				"I’m a mix of planner and builder. I like having structure, but I adjust as I go instead of forcing something that doesn’t fit. If something can be improved, I’ll probably end up reworking it.",
+				"",
+				"I lean toward solving problems however makes the most sense, whether that’s systems, automation, hardware, or something experimental. The end result matters more than the method.",
+				"",
+				"Socially, I’m situational. I can be introverted or extroverted depending on the people and environment."
+			]
+		},
+		{
+			"title": "Personal Snapshot",
+			"body": [
+				"Scorpio (right on the edge, mix of both sides)",
+				"Spiritual, but I question things and don’t follow blindly",
+				"Believe in God, energy, and that there’s more going on than we fully understand",
+				"Logical thinker with an open mind"
+			]
+		},
+		{
+			"title": "Hobbies & Interests",
+			"body": [
+				"Coding and building projects or business ideas",
+				"Gaming (PC, some mobile, tabletop)",
+				"DnD and strategy/world-building",
+				"3D printing",
+				"Outdoors: hiking, biking, kayaking, being outside",
+				"Creative phases: drawing, painting, jewelry making, design work"
+			]
+		},
+		{
+			"title": "Personality",
+			"body": [
+				"Logical, but not closed-minded",
+				"Prefers flexible structure over rigid systems",
+				"Gets bored once something is fully solved",
+				"Always building, improving, or reworking something",
+				"Social energy depends on the situation"
+			]
+		},
+		{
+			"title": "What I Value",
+			"body": [
+				"Honesty and people who think for themselves",
+				"Clear direction and knowing what you want",
+				"Actions over words",
+				"Having space to breathe, not everything rushed or forced"
+			]
+		},
+		{
+			"title": "Morals & Values",
+			"body": [
+				"I don’t take things at face value just because someone says it’s true. Truth is something people need to think through and figure out for themselves. Context matters.",
+				"",
+				"I judge more on actions and results than intentions. What you do matters more than what you say you meant.",
+				"",
+				"Responsibility depends on the situation. If something needs to be handled, I’ll step in, but I don’t tolerate people who avoid pulling their weight.",
+				"",
+				"In relationships, I care more about the person than labels. Time, personality, loyalty, and freedom matter more than trying to fit into a predefined structure."
+			]
+		},
+		{
+			"title": "I Don’t Tolerate",
+			"body": [
+				"I will burn a bridge if",
+				"someone tries to control me",
+				"someone lies to me",
+				"I’m consistently misunderstood or not listened to",
+				"someone refuses to think for themselves and blindly follows others",
+				"someone avoids responsibility and expects others to carry them",
+				"someone has a constant victim mentality"
+			]
+		},
+		{
+			"title": "Extras",
+			"body": [
+				"Working toward building a life where I control my own time",
+				"Random fact: I was in the newspaper at age 9"
+			]
 		}
 	]
 }
