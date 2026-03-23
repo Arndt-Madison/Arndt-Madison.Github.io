@@ -29,15 +29,7 @@ a{color:inherit}
   margin-bottom:12px;
 }
 
-@media (max-width: 768px) {
-	.hero h1 {
-		font-size: 30px;
-	},
-	.hero-bg {
-		height: 100px;
-		background-position: center top;
-	}
-}
+
 
 /*
 45deg	bottom-left → top-right
@@ -63,7 +55,15 @@ a{color:inherit}
 .hero p{margin:0 0 10px 0;color:var(--muted);max-width:70ch}
 .grid{display:grid;gap:14px}
 .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-
+@media (max-width: 768px) {
+	.hero h1 {
+		font-size: 30px;
+	},
+	.hero-bg {
+		height: 100px;
+		background-position: center top;
+	}
+}
 
 /*-------------- About --------------*/
 [data-about-body] p{
