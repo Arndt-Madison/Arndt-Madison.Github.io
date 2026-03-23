@@ -29,6 +29,12 @@ a{color:inherit}
   margin-bottom:12px;
 }
 
+@media (max-width: 768px) {
+	.hero h1 {
+		font-size: 30px;
+	}
+}
+
 /*
 45deg	bottom-left → top-right
 135deg	top-left → bottom-right
