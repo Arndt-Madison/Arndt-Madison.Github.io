@@ -20,5 +20,5 @@ export async function loadBranch(json){
 		fileName += ".json";
 	}
 
-	return await loadJson(`./assets/json/${fileName}`);
+	return await loadJson(`/assets/json/${fileName}`);
 }
