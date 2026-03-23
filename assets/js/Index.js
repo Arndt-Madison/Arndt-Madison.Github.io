@@ -1,7 +1,7 @@
 import { loadHeaderFooter, HF_main, setText } from "./HeaderFooter.js";
 import { loadBranch } from "./OpenJsons.js";
 
-function renderHome(indexData, settings){
+export function renderHome(indexData, settings){
 	const page = indexData || {};
 	const heroBg = document.querySelector("[data-hero-bg]");
 	if(heroBg && settings.brand?.background){
