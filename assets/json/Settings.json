@@ -31,7 +31,7 @@
 		"items": [
 			{
 				"label": "Home",
-				"href": "index.html"
+				"href": "/index.html"
 			},
 			{
 				"label": "Links",
