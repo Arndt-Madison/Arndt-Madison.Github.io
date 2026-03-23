@@ -32,6 +32,10 @@ a{color:inherit}
 @media (max-width: 768px) {
 	.hero h1 {
 		font-size: 30px;
+	},
+	.hero-bg {
+		height: 200px;
+		background-position: center top;
 	}
 }
 
