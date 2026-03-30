@@ -1,6 +1,6 @@
 import { loadHeaderFooter, HF_main, setText } from "./HeaderFooter.js";
 import { loadBranch } from "./OpenJsons.js";
-import { renderHome } from "./Index.js";
+import { renderHome } from "./RenderHome.js";
 
 
 
