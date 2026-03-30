@@ -139,9 +139,6 @@ a{color:inherit}
 	.hero-bg {
 		height: 100px;
 	}
-}
-
-@media (max-width: 768px) {
 	.hero-headshot-link{
 		right:16px;
 		top:100px;

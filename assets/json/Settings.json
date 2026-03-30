@@ -34,6 +34,10 @@
 				"href": "/index.html"
 			},
 			{
+				"label": "Card",
+				"href": "/BizCard/index.html"
+			},
+			{
 				"label": "Links",
 				"href": "/Links/index.html"
 			}
