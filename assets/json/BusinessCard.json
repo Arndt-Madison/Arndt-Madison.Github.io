@@ -1,0 +1,41 @@
+{
+	"eyebrow": "Digital Business Card",
+	"title": "Madison Arndt",
+	"subtitle": "Custom systems, automation, and tools",
+	"tagline": [
+		"I build practical solutions that solve real problems.",
+		"From web tools to integrated systems, I focus on things people actually use."
+	],
+	"actions": [
+		{
+			"label": "View Links",
+			"href": "/Links/index.html"
+		},
+		{
+			"label": "Read Bio",
+			"href": "index.html"
+		},
+		{
+			"label": "Email Me",
+			"href": "mailto:Arndt.Madison.1999@gmail.com"
+		},
+		{
+			"label": "GitHub",
+			"href": "https://github.com/Arndt-Madison",
+			"newTab": true
+		}
+	],
+	"meta": [
+		{
+			"label": "East Bethal, MN"
+		},
+		{
+			"label": "Arndt.Madison.1999@gmail.com",
+			"href": "mailto:Arndt.Madison.1999@gmail.com"
+		},
+		{
+			"label": "Personal Site",
+			"href": "index.html"
+		}
+	]
+}
