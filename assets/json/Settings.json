@@ -27,7 +27,7 @@
 		}
 	},
 	"nav": {
-		"homePath": "index.html",
+		"homePath": "/index.html",
 		"items": [
 			{
 				"label": "Home",
