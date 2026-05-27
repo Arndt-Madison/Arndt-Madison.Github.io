@@ -26,11 +26,15 @@
 			]
 		},
 		{
-			"title": "Business Links",
+			"title": "Associated Organizations",
 			"links": [
 				{
 					"label": "Themadhood Pequot",
 					"href": "https://Themadhood.github.io"
+				},
+				{
+					"label": "Prism Bloom Exercise",
+					"href": "https://PrismBloomExercise.github.io"
 				}
 			]
 		},
