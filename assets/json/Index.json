@@ -21,6 +21,46 @@
 			"",
 			"I aim to build things that are useful, reliable, and easy to work with. whether for myself, a team, or a larger system."
 		]
+		},
+		{
+			"title": "Professional Skills",
+			"body": [
+				"I am proficient in Python and several C-family programming languages, with the ability to read and understand code across programming languages even when I have not worked extensively with the specific language.",
+				"",
+				"My technical experience includes database design, software development, automation, troubleshooting, and basic IT setup and support.",
+				"",
+				"I currently work with CODESYS and Python, and have experience working with e!COCKPIT, JMobile, Galileo, and LOGO! Soft Comfort.",
+				"",
+				"I also use AI-assisted development to help build foundations and accelerate development, while taking care to remove sensitive information before providing material to AI systems."
+			]
+		},
+		{
+			"title": "Professional Experience",
+			"body": [
+				"I have worked at Broadway Equipment Company since 2018, where my responsibilities have expanded significantly over time.",
+				"",
+				"I began by converting machine code from one development platform to another and gradually took on broader programming responsibilities. I am currently responsible for machine-related programming and serve as the lead developer for the company's updated wash control systems.",
+				"",
+				"My work includes machine programming, system development, data analysis, and relay and control systems."
+			]
+		},
+		{
+			"title": "Education",
+			"body": [
+				"I earned an Associate of Arts (AA) and an Associate of Science (AS) from Anoka-Ramsey Community College, attending from 2017 to 2023.",
+				"",
+				"I later earned a Bachelor of Science (BS) from St. Cloud State University."
+			]
+		},
+		{
+			"title": "Community & Volunteer Experience",
+			"body": [
+				"I run Prism Bloom Exercise (PBE), a free outdoor exercise community focused on creating accessible opportunities for people to stay active through activities such as walking, hiking, biking, and kayaking.",
+				"",
+				"I also serve on the Anoka County 4-H Management Committee and as foreman and coordinator for Anoka County 4-H Waste Education.",
+				"",
+				"Waste Education provides 4-H youth from sixth grade through one year after high school with opportunities to earn money toward their 4-H program fees through community waste education work."
+			]
 		}
 	]
 }
