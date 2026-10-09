@@ -178,3 +178,31 @@ a{color:inherit}
 		border-radius:16px;
 	}
 }
+/* Business card QR, matching Themadhood's design. */
+.business-card-qr-section{
+    margin-top:26px;
+    padding-top:24px;
+    border-top:1px solid var(--border);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+/* The outer 12px frame uses Settings.json > brand.colors.accent. */
+.business-card-qr{
+    background:var(--qr-accent,var(--accent));
+    border-radius:16px;
+    padding:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width:100%;
+}
+.business-card-qr svg{
+    max-width:100%;
+    height:auto;
+    display:block;
+    border-radius:4px;
+}
+.business-card-qr-caption{margin:0;color:var(--muted);font-size:.92rem}
+.business-card-qr-link{font-size:.79rem;overflow-wrap:anywhere;color:var(--text)}
